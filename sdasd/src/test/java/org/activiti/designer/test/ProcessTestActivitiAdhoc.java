@@ -8,7 +8,7 @@ public class ProcessTestActivitiAdhoc {
 
 	// private String filename =
 	// "D:\\workspaces\\khall\\activiti\\sdasd\\src\\main\\resources\\diagrams\\MyProcess.bpmn";
-
+//testing
 	// @Rule
 	// public ActivitiRule activitiRule = new ActivitiRule();
 
