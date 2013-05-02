@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="junittest"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/ThirdPartyLibs/lib/apache-commons-io/commons-io-2.3.jar" sourcepath="D:/资料/学习资料/java 资料/commons-io-2.4-src/src"/>
+	<classpathentry kind="lib" path="/ThirdPartyLibs/lib/jax-ws/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="/ThirdPartyLibs/lib/google/guava-12.0.jar"/>
+	<classpathentry kind="lib" path="lib/cpdetector/antlr-2.7.4.jar"/>
+	<classpathentry kind="lib" path="lib/cpdetector/chardet-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/cpdetector/cpdetector_1.0.10.jar"/>
+	<classpathentry kind="lib" path="/ThirdPartyLibs/lib/google/gson-2.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

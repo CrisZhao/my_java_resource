@@ -1,0 +1,62 @@
+package utils;
+
+import java.beans.BeanInfo;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Method;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class BeanUtils {
+
+	public static LinkedHashMap<String, String> beantoMap(Object javaBean) {
+		LinkedHashMap<String, String> result = new LinkedHashMap<String, String>();
+		Method[] methods = javaBean.getClass().getDeclaredMethods();
+
+		for (Method method : methods) {
+			try {
+				// Annotation anno = method.getAnnotation(Ignore.class);
+				if (method.getName().startsWith("get")
+				// && !method.getName().equals("getAttributeMap")) {
+				) {
+					String field = method.getName();
+					field = field.substring(field.indexOf("get") + 3);
+					field = field.toLowerCase().charAt(0) + field.substring(1);
+
+					Object value = method.invoke(javaBean, (Object[]) null);
+					result.put(field, null == value ? "" : value.toString());
+				}
+			} catch (Exception e) {
+			}
+		}
+		return result;
+	}
+
+	public static Object convertMap(Class<?> type, Map<String, String> map)
+			throws Exception {
+		return convertMap(type.newInstance(), map);
+	}
+
+	public static <T> Object convertMap(T object, Map<String, String> map)
+			throws Exception {
+
+		BeanInfo beanInfo = Introspector.getBeanInfo(object.getClass());
+		PropertyDescriptor[] propertyDescriptors = beanInfo
+				.getPropertyDescriptors();
+		for (int i = 0; i < propertyDescriptors.length; i++) {
+			PropertyDescriptor descriptor = propertyDescriptors[i];
+			String propertyName = descriptor.getName();
+			//key in map should equal to propertyName in bean class 
+			if (map.containsKey(propertyName)) {
+				Object value = map.get(propertyName);
+				Object[] args = new Object[1];
+				args[0] = value;
+				descriptor.getWriteMethod().invoke(object, args);
+			}
+
+		}
+
+		return object;
+	}
+
+}
