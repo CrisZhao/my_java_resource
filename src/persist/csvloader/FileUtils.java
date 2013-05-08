@@ -5,12 +5,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.commons.io.IOUtils;
 
 import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 
 public class FileUtils {
 	private static FileUtils instance = new FileUtils();
@@ -56,20 +54,20 @@ public class FileUtils {
 		return contents;
 	}
 	
-	public List<Map<String, String>> convertCSVFile2Map(List<String[]> contents) {
-		Map<String, String> map = Maps.newHashMap();
-		if(contents.size()<2) {
-			return map;
-		}
-		String[] titles = contents.get(0);
-		for (int i = 1; i < contents.size(); i++) {
-			if(contents.get(i).length==titles.length) {
-				throw new RuntimeException("data doesn't match titles." + " line: "
-						+ reader.currentLine() + " line number:"
-						+ reader.getLineNum());
-			}
-		}
-	}
+//	public List<Map<String, String>> convertCSVFile2Map(List<String[]> contents) {
+//		Map<String, String> map = Maps.newHashMap();
+//		if(contents.size()<2) {
+//			return map;
+//		}
+//		String[] titles = contents.get(0);
+//		for (int i = 1; i < contents.size(); i++) {
+//			if(contents.get(i).length==titles.length) {
+//				throw new RuntimeException("data doesn't match titles." + " line: "
+//						+ reader.currentLine() + " line number:"
+//						+ reader.getLineNum());
+//			}
+//		}
+//	}
 	
 
 }

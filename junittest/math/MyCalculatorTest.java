@@ -1,11 +1,8 @@
 package math;
 
-import static org.junit.Assert.*;
-
-import java.util.List;
-
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -30,7 +27,8 @@ public class MyCalculatorTest {
 
 	@Test
 	public void test() {
-		List<String> result = new MyCalculator().parse("2+3*5-(6-3/2)");
+		double result = new MyCalculator().cal("2+3*5-(6-3/2)");
+		Assert.assertEquals(12.5, result, 0.0001);
 		System.out.println(result);
 	}
 

@@ -1,5 +1,8 @@
 package math;
 
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Stack;
 /**  
  * 利用栈，进行四则运算的类  
@@ -16,17 +19,17 @@ public class Operate {
     
     /**  
      * 传入需要解析的字符串，返回计算结果(此处因为时间问题，省略合法性验证)  
-     * @param str 需要进行技术的表达式  
+     * @param str 需要进行计算的表达式  
      * @return 计算结果  
      */    
     public int caculate(String str) {    
         // 1.判断string当中有没有非法字符    
         String temp;// 用来临时存放读取的字符    
         // 2.循环开始解析字符串，当字符串解析完，且符号栈为空时，则计算完成    
-        StringBuffer tempNum = new StringBuffer();// 用来临时存放数字字符串(当为多位数时)    
+        StringBuffer tempNum = new StringBuffer();// 用来临时存放数字字符串(当为多位数时)   
         StringBuffer string = new StringBuffer().append(str);// 用来保存，提高效率    
     
-        while (string.length() != 0) {    
+        while (string.length() != 0) {
             temp = string.substring(0, 1);    
             string.delete(0, 1);    
             // 判断temp，当temp为操作符时    
@@ -146,7 +149,7 @@ public class Operate {
     
     public static void main(String args[]) {    
         Operate operate = new Operate();    
-        int t = operate.caculate("(3+4*(4*10-10/2)#");      
+        int t = operate.caculate("(30+4*(4*10-10/2)#");      
         System.out.println(t);    
     }    
     
