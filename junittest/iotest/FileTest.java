@@ -10,6 +10,7 @@ public class FileTest {
 	Logger log = LoggerFactory.getLogger(FileTest.class);
 	@Test
 	public void test() {
+                //test master
 		File path = new File(".");
 		for (String ele : path.list()) {
 			
