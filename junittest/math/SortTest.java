@@ -1,7 +1,5 @@
 package math;
 
-import static org.junit.Assert.fail;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -26,14 +24,10 @@ public class SortTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public void testGetOrder() {
-		fail("Not yet implemented");
-	}
 
 	private void print(int[] datalist) {
 		for (int i : datalist) {
-			System.out.println(i + " ");
+			System.out.print(i + " ");
 		}
 	}
 
