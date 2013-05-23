@@ -1,5 +1,7 @@
 package math;
 
+import java.util.Collections;
+
 public class Sort {
 	private static Sort instance = new Sort();
 
