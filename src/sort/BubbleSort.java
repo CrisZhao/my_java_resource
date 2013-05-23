@@ -2,8 +2,6 @@ package sort;
 
 import java.util.Arrays;
 
-import org.junit.Test;
-
 /**
  * @author Cris Zhao
  * @email zhaoqingce@gmail.com
@@ -18,7 +16,7 @@ public class BubbleSort {
 			didSwap = false;
 			for (int j = 0; j < i; j++) {
 				if (array[j + 1] < array[j]) {
-					swap(array, j, j + 1);
+					SwapUtils.swap(array, j, j + 1);
 					didSwap = true;
 				}
 			}
@@ -30,16 +28,6 @@ public class BubbleSort {
 		}
 	}
 
-	private void swap(int x[], int a, int b) {
-		int t = x[a];
-		x[a] = x[b];
-		x[b] = t;
-	}
 
-	@Test
-	public void test() {
-		int[] array = new int[] { 6, 5, 3, 1, 2 };
-		sort(array);
-	}
 
 }
