@@ -1,6 +1,5 @@
 package sort;
 
-import java.util.Arrays;
 /**
  * @author Cris Zhao
  * @email zhaoqingce@gmail.com
@@ -22,7 +21,7 @@ public class CocktailSort {
 				}
 			}
 			top--;
-			// decreases top the because the element with the largest value in
+			// decreases top because the element with the largest value in
 			// the unsorted part of the list is now on the position top
 			for (int i = top; i > bottom; i--) {
 				if (array[i] < array[i - 1]) {
@@ -33,7 +32,6 @@ public class CocktailSort {
 			// increases bottom because the element with the smallest value in
 			// the unsorted part of the list is now on the position bottom
 			bottom++;
-			System.out.println(Arrays.toString(array));
 		}
 	}
 

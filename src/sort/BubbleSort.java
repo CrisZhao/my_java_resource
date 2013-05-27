@@ -1,6 +1,5 @@
 package sort;
 
-import java.util.Arrays;
 
 /**
  * @author Cris Zhao
@@ -24,7 +23,6 @@ public class BubbleSort {
 			if(didSwap == false) {
 				return;
 			}
-			System.out.println(Arrays.toString(array));
 		}
 	}
 

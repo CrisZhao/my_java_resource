@@ -10,34 +10,34 @@ public class QuickSort {
 
 	public void sort(int[] array) {
 		quickSort(array, 0, array.length - 1);
-
 	}
 
-	private void quickSort(int[] array, int low, int high) {
-		if (high <= low) {
-			return;
-		}
-		int lo = low;
-		int hi = high;
-		int mid = array[(low + high) / 2];
+	private int partition(int[] array, int left, int right) {
+		int i = left, j = right;
+		int pivot = array[(left + right) / 2];
 
-		while (true) {
-			while ((lo < high) && (array[lo] < mid))
-				lo++;
-			while ((hi > low) && (array[hi] > mid))
-				hi--;
-			if (lo > hi)
-				break;
-			if (lo < hi) {
-				SwapUtils.swap(array, lo, hi);
+		while (i <= j) {
+			while (array[i] < pivot)
+				i++;
+			while (array[j] > pivot)
+				j--;
+			if (i <= j) {
+				SwapUtils.swap(array, i, j);
+				i++;
+				j--;
 			}
-			lo++;
-			hi--;
 		}
-		if (low < hi)
-			quickSort(array, low, hi);
-		if (lo < high)
-			quickSort(array, lo, high);
+		;
+
+		return i;
+	}
+
+	private void quickSort(int arr[], int left, int right) {
+		int index = partition(arr, left, right);
+		if (left < index - 1)
+			quickSort(arr, left, index - 1);
+		if (index < right)
+			quickSort(arr, index, right);
 	}
 
 }
