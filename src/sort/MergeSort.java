@@ -10,7 +10,12 @@ public class MergeSort {
 	public void sort(int[] array) {
 		mergeSort(array, 0, array.length-1);
 	}
-
+/**
+ * merge sort algorithm
+ * @param array
+ * @param low
+ * @param high
+ */
 	public void mergeSort(int[] array, int low, int high) {
 		if (low < high) {
 		int center = (low + high) / 2;
@@ -21,11 +26,11 @@ public class MergeSort {
 	}
 
 	/**
-	 * merge sort algorithm
+	 * merge sorted sub-arrays using temp array
 	 * @param array an array to sort
-	 * @param low left-most index of the left subarray
-	 * @param center left-most index of the right subarray
-	 * @param high right-most index of the right subarray
+	 * @param low left-most index of the left sub-array
+	 * @param center left-most index of the right sub-array
+	 * @param high right-most index of the right sub-array
 	 */
 	private void merge(int[] array, int low, int center, int high) {
 		int[] temp = new int[high - low + 1];

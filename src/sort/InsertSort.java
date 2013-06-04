@@ -1,5 +1,9 @@
 package sort;
 
+import java.util.Arrays;
+
+import org.junit.Test;
+
 /**
  * 
  * @author Cris Zhao
@@ -18,7 +22,16 @@ public class InsertSort {
 				index--;
 			}
 			array[index] = temp;
+			System.out.println(Arrays.toString(array));
 		}
+	}
+	
+	@Test
+	public void test() {
+		int[] array = new int[]{6,2,4,6,8,2,7,9,2,4,3};
+		System.out.println(Arrays.toString(array));
+		sort(array);
+		System.out.println(Arrays.toString(array));
 	}
 
 }
