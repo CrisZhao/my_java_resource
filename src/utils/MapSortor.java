@@ -12,8 +12,14 @@ import org.junit.Test;
 
 import com.google.common.collect.Lists;
 
+/**
+ * sort map by value
+ * 
+ * @author Cris Zhao
+ * 
+ */
 public class MapSortor {
-	
+
 	public static <K, V> LinkedHashMap<K, V> sort(Map<K, V> map,
 			final Comparator<Entry<K, V>> comparator) {
 		List<Entry<K, V>> list = Lists.newArrayList(map.entrySet());
@@ -25,16 +31,16 @@ public class MapSortor {
 		}
 		return sortedMap;
 	}
-	
+
 	public static <K, V> LinkedHashMap<K, V> sort(Map<K, V> map) {
 		List<Entry<K, V>> list = Lists.newArrayList(map.entrySet());
-		
+
 		Collections.sort(list, new Comparator<Entry<K, V>>() {
 
 			@SuppressWarnings("unchecked")
 			@Override
 			public int compare(Entry<K, V> o1, Entry<K, V> o2) {
-				return ((Comparable<V>)o1.getValue()).compareTo(o2.getValue());
+				return ((Comparable<V>) o1.getValue()).compareTo(o2.getValue());
 			}
 		});
 		LinkedHashMap<K, V> sortedMap = new LinkedHashMap<K, V>();
@@ -43,8 +49,7 @@ public class MapSortor {
 		}
 		return sortedMap;
 	}
-	
-	
+
 	@Test
 	public void testSort() {
 		Map<String, Integer> map = new HashMap<String, Integer>();
@@ -53,12 +58,14 @@ public class MapSortor {
 		map.put("ss2", 23);
 		map.put("ss", 2);
 		LinkedHashMap<String, Integer> sortedMap = sort(map);
+
 		for (Entry<String, Integer> entry : sortedMap.entrySet()) {
-			
-			System.out.println(entry.getKey()+" : "+entry.getValue());
+
+			System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
-		
+
 	}
+
 	@Test
 	public void testSortComparator() {
 		Map<String, Integer> map = new HashMap<String, Integer>();
@@ -66,20 +73,20 @@ public class MapSortor {
 		map.put("first", 1);
 		map.put("ss2", 23);
 		map.put("ss", 2);
-		LinkedHashMap<String, Integer> sortedMap = sort(map, new Comparator<Entry<String,Integer>>() {
-			
+		LinkedHashMap<String, Integer> sortedMap = sort(map,
+				new Comparator<Entry<String, Integer>>() {
 
-			@Override
-			public int compare(Entry<String, Integer> o1,
-					Entry<String, Integer> o2) {
-				return o1.getValue().compareTo(o2.getValue());
-			}
-		});
+					@Override
+					public int compare(Entry<String, Integer> o1,
+							Entry<String, Integer> o2) {
+						return o1.getValue().compareTo(o2.getValue());
+					}
+				});
 		for (Entry<String, Integer> entry : sortedMap.entrySet()) {
-			
-			System.out.println(entry.getKey()+" : "+entry.getValue());
+
+			System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
-		
+
 	}
 
 }
