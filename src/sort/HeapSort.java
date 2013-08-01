@@ -1,5 +1,7 @@
 package sort;
 
+import java.util.Arrays;
+
 import org.junit.Test;
 
 public class HeapSort {
@@ -43,7 +45,7 @@ public class HeapSort {
 	public void tst() {
 		int[] array = new int[] { 2, 4, 5, 6, 8, 9, 3, 2, 1 };
 		sort(array);
-		System.out.println(array);
+		System.out.println(Arrays.toString(array));
 	}
 
 	private int left(int index) {

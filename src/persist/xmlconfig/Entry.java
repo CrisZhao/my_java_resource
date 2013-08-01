@@ -1,6 +1,7 @@
 package persist.xmlconfig;
 
 import javax.xml.bind.annotation.XmlElement;
+
 public class Entry {
 	public enum FileType {
 		XML, PROPERTY, CSV
@@ -49,5 +50,13 @@ public class Entry {
 				return true;
 		}
 		return false;
+	}
+
+	@Override
+	public int hashCode() {
+		int result = 17;
+		result = 37 * result + fileType.ordinal() + fileName.hashCode();
+		result = 37 * result + fileName.hashCode();
+		return result;
 	}
 }
