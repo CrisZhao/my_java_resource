@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class ParentClass {
 
+	@SuppressWarnings("unused")
 	private Tt tt = new Tt();
 
 	public ParentClass() {

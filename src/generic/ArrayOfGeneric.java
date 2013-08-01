@@ -11,6 +11,7 @@ public class ArrayOfGeneric {
 		
 	}
 	Generic<Integer>[] gia;
+	@SuppressWarnings("unchecked")
 	@Test
 	public void genricTest() {
 		ArrayList<String> aa = new ArrayList<String>();

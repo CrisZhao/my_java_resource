@@ -12,9 +12,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/cpdetector/antlr-2.7.4.jar"/>
-	<classpathentry kind="lib" path="lib/cpdetector/chardet-1.0.jar"/>
-	<classpathentry kind="lib" path="lib/cpdetector/cpdetector_1.0.10.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
