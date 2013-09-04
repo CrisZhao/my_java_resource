@@ -1,4 +1,4 @@
-package search;
+package collection;
 
 import java.util.Collection;
 import java.util.Collections;

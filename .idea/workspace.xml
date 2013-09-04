@@ -2,18 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d67cb25-5d26-4e51-b6b6-a26ba034a522" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\workspaces\6.3\my_java_resource\junittest\multithread\Joining.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspaces\6.3\my_java_resource\src\generic\ArrayOfGeneric.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reflact/DynamicProxyHandler.java" afterPath="$PROJECT_DIR$/src/reflact/DynamicProxyHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persist/xmlconfig/Entry.java" afterPath="$PROJECT_DIR$/src/persist/xmlconfig/Entry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort/HeapSort.java" afterPath="$PROJECT_DIR$/src/sort/HeapSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/TextFile.java" afterPath="$PROJECT_DIR$/src/utils/TextFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/Calculate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/Lucky.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/MinLength.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/Palindrom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/Permutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/pongo/XMLparse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junittest/iotest/ZipTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/junittest/iotest/Echo.java" afterPath="$PROJECT_DIR$/junittest/iotest/Echo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort/InsertSort.java" afterPath="$PROJECT_DIR$/src/sort/InsertSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/PrintUtils.java" afterPath="$PROJECT_DIR$/src/utils/PrintUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspaces\6.3\my_java_resource\src\search\UnmodifiableTest.java" afterPath="$PROJECT_DIR$/junittest/collection/UnmodifiableTest.java" />
+      <change type="MOVED" beforePath="D:\workspaces\6.3\my_java_resource\src\utils\MapSortor.java" afterPath="$PROJECT_DIR$/src/utils/MapSorter.java" />
     </list>
     <ignored path="my_java_resource.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375336439764" ignored="false" />
-    <file path="/fragment.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375336910178" ignored="false" />
-    <file path="$PROJECT_DIR$/junittest/iotest/Echo.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375343611357" ignored="false" />
+    <file path="/Dummy.txt" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1378101442806" ignored="false" />
+    <file path="/fragment.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1376631922955" ignored="false" />
+    <file path="/a.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375344222790" ignored="false" />
+    <file path="/sample.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375344221430" ignored="false" />
+    <file path="/Echo.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1376616834714" ignored="false" />
+    <file path="/WarterContainer.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377167695574" ignored="false" />
+    <file path="/TfUtils.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375756555290" ignored="false" />
+    <file path="/NNumCalculateToM.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375758914527" ignored="false" />
+    <file path="$PROJECT_DIR$/junittest/pongo/NNumCalculateToM.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375758981846" ignored="false" />
+    <file path="/Calculate.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1376043942647" ignored="false" />
+    <file path="/Palindrom.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375846706254" ignored="false" />
+    <file path="/TwentyFour.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375863356734" ignored="false" />
+    <file path="/ZipTest.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375871903770" ignored="false" />
+    <file path="/CloneTest.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375933984113" ignored="false" />
+    <file path="/ArrayTest.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1376016285333" ignored="false" />
+    <file path="/User.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1376638535128" ignored="false" />
+    <file path="/ObjectDTO.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377161984488" ignored="false" />
+    <file path="/XMLparse.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377242027249" ignored="false" />
+    <file path="/ValidString.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1376982654713" ignored="false" />
+    <file path="/InsertSort.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377053709398" ignored="false" />
+    <file path="/TimeFormat.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377069458080" ignored="false" />
+    <file path="/MapSortor.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377167846142" ignored="false" />
+    <file path="/GiveAn.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377083411463" ignored="false" />
+    <file path="/Permutation.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377251215981" ignored="false" />
+    <file path="/Lucky.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377496324468" ignored="false" />
+    <file path="/MinLength.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377511958865" ignored="false" />
+    <file path="/PrintUtils.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1377573274936" ignored="false" />
+    <file path="/Test.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1378091130159" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +67,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,7 +104,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/junittest/pongo/MinLength.java" line="14" class="pongo.MinLength" package="pongo">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -78,7 +129,17 @@
     <favorites_list name="my_java_resource" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junittest/pongo/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="5" selection-start="147" selection-end="147" vertical-scroll-proportion="0.22485207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -96,15 +157,46 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/junittest/iotest/Echo.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/IUser.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/User.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/junittest/stackoverflow/TimeFormat.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/GiveAn.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/ObjectDTO.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/ValidString.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/WarterContainer.java" />
+        <option value="$PROJECT_DIR$/src/utils/MapSortor.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/XMLparse.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/Permutation.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/Lucky.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/MinLength.java" />
+        <option value="$PROJECT_DIR$/src/utils/PrintUtils.java" />
+        <option value="$PROJECT_DIR$/junittest/pongo/Test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="10" />
-    <option name="width" value="1660" />
-    <option name="height" value="1010" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -133,7 +225,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,25 +245,134 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_93e8418133eb85e81a81e5e19c272776524496c6/bin/git.exe" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="gradle.tool.window.active" value="Project" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pongo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MinLength">
+    <configuration default="false" name="WarterContainer" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="my_java_resource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pongo" />
+      <option name="MAIN_CLASS_NAME" value="pongo.WarterContainer" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Palindrom" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pongo.Palindrom" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my_java_resource" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Calculate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pongo.Calculate" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my_java_resource" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ValidString" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pongo.ValidString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my_java_resource" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MinLength" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pongo.MinLength" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my_java_resource" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -261,13 +461,79 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="Permutation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pongo.Permutation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my_java_resource" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Echo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="iotest.Echo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my_java_resource" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Application.Permutation" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Echo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WarterContainer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Palindrom" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Calculate" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ValidString" />
+      <item index="6" class="java.lang.String" itemvalue="Application.MinLength" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MinLength" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Calculate" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Palindrom" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WarterContainer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ValidString" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -294,29 +560,50 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="10" width="1660" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496871" sideWeight="0.67134506" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3981588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32220945" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24418604" sideWeight="0.4269275" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496871" sideWeight="0.6705744" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24418604" sideWeight="0.6789413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3210587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33026466" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -396,30 +683,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/batchprocessor/PARAM.java">
+    <entry file="jar://C:/Program Files/jdk1.6.0_30/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="79" selection-end="79" vertical-scroll-proportion="0.09189843">
-          <folding />
-        </state>
+        <state line="752" column="5" selection-start="25362" selection-end="25509" vertical-scroll-proportion="0.43784785" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junittest/iotest/Echo.java">
+    <entry file="jar://C:/Program Files/jdk1.6.0_30/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="372" selection-end="372" vertical-scroll-proportion="0.25272068">
-          <folding />
-        </state>
+        <state line="351" column="20" selection-start="13091" selection-end="13095" vertical-scroll-proportion="0.35250464" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_java_resource.iml">
+    <entry file="file://$PROJECT_DIR$/src/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="39" selection-start="468" selection-end="468" vertical-scroll-proportion="0.3752244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batchprocessor/BaseBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="0.13644524" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MapSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="417" selection-end="417" vertical-scroll-proportion="0.13644524" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/iotest/ZipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="67" selection-end="67" vertical-scroll-proportion="0.20466787" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/Calculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.3734291">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/XMLparse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="91" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/Palindrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="28" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.59574467">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/Lucky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/MinLength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#322#0" expanded="true" />
+            <element signature="e#548#559#0" expanded="true" />
+            <element signature="e#899#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/PrintUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="9" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.66312057" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/jdk1.6.0_30/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3363" column="0" selection-start="136407" selection-end="136407" vertical-scroll-proportion="0.51715976" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junittest/pongo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="147" selection-end="147" vertical-scroll-proportion="0.22485207">
           <folding />
         </state>
       </provider>

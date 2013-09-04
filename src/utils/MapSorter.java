@@ -1,11 +1,6 @@
 package utils;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
 
 import org.junit.Test;
@@ -18,7 +13,7 @@ import com.google.common.collect.Lists;
  * @author Cris Zhao
  * 
  */
-public class MapSortor {
+public class MapSorter {
 
 	public static <K, V> LinkedHashMap<K, V> sort(Map<K, V> map,
 			final Comparator<Entry<K, V>> comparator) {
