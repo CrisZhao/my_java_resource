@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class Calculate {
+public class TwentyFourGame {
     //将NUM设置为待排列数组的长度即实现全排列
     private static int NUM = 4;
 
@@ -82,7 +82,7 @@ public class Calculate {
     }
 
     public static void main(String[] args) {
-        Integer[] datas = new Integer[]{5, 5, 5, 1};
+        Integer[] datas = new Integer[]{1, 1, 1, 11};
         System.out.println(sort(Arrays.asList(datas), new ArrayList<Integer>()));
     }
 
