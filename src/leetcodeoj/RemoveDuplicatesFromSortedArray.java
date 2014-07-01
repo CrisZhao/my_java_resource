@@ -1,5 +1,9 @@
 package leetcodeoj;
 
+import java.util.Arrays;
+
+import org.junit.Test;
+
 /**
  * Given a sorted array, remove the duplicates in place such that each element
  * appear only once and return the new length. Do not allocate extra space for
@@ -10,8 +14,8 @@ package leetcodeoj;
  * 
  * 
  */
-public class RemoveDupliates {
-	public static int removeDuplicates(int[] A) {
+public class RemoveDuplicatesFromSortedArray {
+	public int removeDuplicates(int[] A) {
 		if (A.length == 0) {
 			return 0;
 		}
@@ -29,10 +33,11 @@ public class RemoveDupliates {
 		return index + 1;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test() {
 		int[] a = { 1, 2, 2, 3, 3, 3, 4, 5, 6, 6, 7, 7 };
 		System.out.println(removeDuplicates(a));
-		System.out.println(a);
+		System.out.println(Arrays.toString(a));
 	}
 
 }
