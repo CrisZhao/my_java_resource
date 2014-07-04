@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d67cb25-5d26-4e51-b6b6-a26ba034a522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/InsertionSortList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/LengthOfLastWord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/ReverseWordsInString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/SortLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/TrappingRainWater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcodeoj/SumRootToLeafNumbers.java" afterPath="$PROJECT_DIR$/src/leetcodeoj/SumRootToLeafNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/FlattenBinaryTreeToLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/LongestConsecutiveSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/UniquePathsII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/ValidParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcodeoj/ValidSudoku.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java" afterPath="$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcodeoj/UniquePaths.java" afterPath="$PROJECT_DIR$/src/leetcodeoj/UniquePaths.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_java_resource.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404185199611" ignored="false" />
+    <file path="/Dummy.txt" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404438296863" ignored="false" />
     <file path="/fragment.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404185651604" ignored="false" />
     <file path="/a.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375344222790" ignored="false" />
     <file path="/sample.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1375344221430" ignored="false" />
@@ -55,6 +56,12 @@
     <file path="/LengthOfLastWord.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404204107543" ignored="false" />
     <file path="/SumRootToLeafNumbers.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404208137944" ignored="false" />
     <file path="/TrappingRainWater.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404209239447" ignored="false" />
+    <file path="/ValidParentheses.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404210729063" ignored="false" />
+    <file path="/UniquePathsII.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404455841980" ignored="false" />
+    <file path="/UniquePaths.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404443654739" ignored="false" />
+    <file path="/ValidSudoku.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404458560185" ignored="false" />
+    <file path="/LongestConsecutiveSequence.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404463498051" ignored="false" />
+    <file path="/FlattenBinaryTreeToLinkedList.java" changelist="3d67cb25-5d26-4e51-b6b6-a26ba034a522" time="1404469712682" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +194,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/leetcodeoj/UniquePathsII.java" line="35" class="leetcodeoj.UniquePathsII" package="leetcodeoj">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -197,19 +219,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PreorderTraversal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java">
+      <file leaf-file-name="UniquePaths.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/UniquePaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+            <state line="72" column="5" selection-start="1712" selection-end="2017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumRootToLeafNumbers.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/SumRootToLeafNumbers.java">
+      <file leaf-file-name="Combinations.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/Combinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="74" selection-start="591" selection-end="957" vertical-scroll-proportion="0.6272085">
+            <state line="15" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniquePathsII.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/UniquePathsII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="9" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidSudoku.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/ValidSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="50" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestConsecutiveSequence.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/LongestConsecutiveSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="30" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#538#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlattenBinaryTreeToLinkedList.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/FlattenBinaryTreeToLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="16" selection-start="439" selection-end="439" vertical-scroll-proportion="-1.1026157">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#809#819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreorderTraversal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="5" selection-start="1216" selection-end="1429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -234,13 +307,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/junittest/pongo/TestReflectConstructor.java" />
-        <option value="$PROJECT_DIR$/src/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/junittest/pongo/NumOfSubArray.java" />
-        <option value="$PROJECT_DIR$/src/testclass/SubClass.java" />
-        <option value="$PROJECT_DIR$/junittest/collection/UnmodifiableTest.java" />
-        <option value="$PROJECT_DIR$/src/utils/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/persist/properties/AttributeDictionary.properties" />
         <option value="$PROJECT_DIR$/src/persist/properties/PropertyFileManage.java" />
         <option value="$PROJECT_DIR$/src/leetcodeoj/ReverseWordsInString.java" />
         <option value="$PROJECT_DIR$/src/leetcodeoj/SortList.java" />
@@ -250,6 +316,13 @@
         <option value="$PROJECT_DIR$/src/leetcodeoj/SumRootToLeafNumbers.java" />
         <option value="$PROJECT_DIR$/junittest/pongo/Puddle.java" />
         <option value="$PROJECT_DIR$/src/leetcodeoj/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/UniquePaths.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/UniquePathsII.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/ValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/LongestConsecutiveSequence.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leetcodeoj/FlattenBinaryTreeToLinkedList.java" />
       </list>
     </option>
   </component>
@@ -319,7 +392,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Abstraction issues</id>
+            <id>Spelling</id>
           </State>
         </selected-state>
       </profile-state>
@@ -351,6 +424,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,30 +491,29 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_fed20eba68b3e238e49a47cdfed0a45783d93651/bin/git.exe" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="gradle.tool.window.active" value="Project" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -451,13 +524,41 @@
       <recent name="pongo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrappingRainWater">
-    <configuration default="false" name="LengthOfLastWord" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.FlattenBinaryTreeToLinkedList">
+    <configuration default="false" name="UniquePathsII" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="my_java_resource" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcodeoj" />
-      <option name="MAIN_CLASS_NAME" value="leetcodeoj.LengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeoj.UniquePathsII" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UniquePaths" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="my_java_resource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcodeoj" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeoj.UniquePaths" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -474,12 +575,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LengthOfLastWord.test" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="UniquePaths.test" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="my_java_resource" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcodeoj" />
-      <option name="MAIN_CLASS_NAME" value="leetcodeoj.LengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeoj.UniquePaths" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -496,56 +597,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SumRootToLeafNumbers.test" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="LongestConsecutiveSequence" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="my_java_resource" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcodeoj" />
-      <option name="MAIN_CLASS_NAME" value="leetcodeoj.SumRootToLeafNumbers" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Puddle.test" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="my_java_resource" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pongo" />
-      <option name="MAIN_CLASS_NAME" value="pongo.Puddle" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TrappingRainWater" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="my_java_resource" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcodeoj" />
-      <option name="MAIN_CLASS_NAME" value="leetcodeoj.TrappingRainWater" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeoj.LongestConsecutiveSequence" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -560,6 +617,32 @@
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FlattenBinaryTreeToLinkedList" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="my_java_resource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcodeoj" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeoj.FlattenBinaryTreeToLinkedList" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -574,6 +657,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -601,19 +697,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -697,19 +780,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Permutation" />
       <item index="1" class="java.lang.String" itemvalue="Application.Echo" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LengthOfLastWord" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LengthOfLastWord.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SumRootToLeafNumbers.test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.Puddle.test" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TrappingRainWater" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UniquePathsII" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UniquePaths" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UniquePaths.test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LongestConsecutiveSequence" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.FlattenBinaryTreeToLinkedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TrappingRainWater" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Puddle.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SumRootToLeafNumbers.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LengthOfLastWord" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LengthOfLastWord.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FlattenBinaryTreeToLinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LongestConsecutiveSequence" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UniquePathsII" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UniquePaths" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UniquePaths.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -770,7 +853,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -778,8 +861,8 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24908201" sideWeight="0.6812428" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3981588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3187572" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3981588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3981588" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24418604" sideWeight="0.4269275" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33026466" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -787,8 +870,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6812428" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24418604" sideWeight="0.6812428" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3187572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24418604" sideWeight="0.6018412" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31760645" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -872,62 +955,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/MinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="25" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PostorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/UniqueBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="44" selection-start="1508" selection-end="1875" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junittest/pongo/Water.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="43" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
@@ -958,9 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junittest/pongo/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodeoj/TrappingRainWater.java">
@@ -981,8 +1006,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodeoj/SumRootToLeafNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="74" selection-start="591" selection-end="957" vertical-scroll-proportion="0.6272085">
+        <state line="44" column="38" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.46830985">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="607" selection-end="607" vertical-scroll-proportion="0.6572935">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/UniquePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="5" selection-start="1712" selection-end="2017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/UniquePathsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="9" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/LongestConsecutiveSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/PreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="5" selection-start="1216" selection-end="1429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodeoj/FlattenBinaryTreeToLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="439" selection-end="439" vertical-scroll-proportion="-1.1026157">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#809#819#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

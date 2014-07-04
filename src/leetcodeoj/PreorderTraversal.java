@@ -52,8 +52,8 @@ public class PreorderTraversal {
 		}
 		TreeNode node = root;
 		result.add(node.val);
-		result.addAll(preorderTraversal(node.left));
-		result.addAll(preorderTraversal(node.right));
+		result.addAll(recursion(node.left));
+		result.addAll(recursion(node.right));
 		return result;
 	}
 
