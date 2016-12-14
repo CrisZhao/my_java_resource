@@ -1,6 +1,4 @@
-package game;
-
-import game.Snake.extension;
+package game.snake;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -117,7 +115,7 @@ class Snake_Game_Pad {
 		Iterator<body> food_iter = food_body.iterator();
 		while (food_iter.hasNext()) {
 			body fb = food_iter.next();
-			extension fext = fb.get_extension();
+			Snake.extension fext = fb.get_extension();
 			// 食物超时时间到了，食物消失。
 			if ((System.currentTimeMillis() - fext.star_time()) > fext
 					.get_timeout()) {

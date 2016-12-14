@@ -1,6 +1,4 @@
-package game;
-
-import game.Snake.extension;
+package game.snake;
 
 /**
  * 游戏中所有的元素都是链表，定义为body类
@@ -10,7 +8,7 @@ import game.Snake.extension;
 class body extends Object {
 	posision pos;
 	posision direct;
-	extension ext;
+	Snake.extension ext;
 
 	public body() {
 	}
@@ -30,11 +28,11 @@ class body extends Object {
 		return true;
 	}
 
-	void set_extension(extension ext) {
+	void set_extension(Snake.extension ext) {
 		this.ext = ext;
 	}
 
-	extension get_extension() {
+	Snake.extension get_extension() {
 		return this.ext;
 	}
 	// void *private;

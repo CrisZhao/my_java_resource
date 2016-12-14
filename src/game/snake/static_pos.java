@@ -1,4 +1,4 @@
-package game;
+package game.snake;
 
 /**
  * 静态数据，保存所有的位置和方向信息 这原本是可以定义到各个使用类内部以内部类实现的

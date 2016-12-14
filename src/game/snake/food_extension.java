@@ -1,13 +1,11 @@
-package game;
-
-import game.Snake.extension;
+package game.snake;
 
 /**
  * 食物的属性
  * @author marywangran
  *
  */
-class food_extension implements extension {
+class food_extension implements Snake.extension {
     long time_out;
     int score;
     long start;

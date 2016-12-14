@@ -1,4 +1,4 @@
-package game;
+package game.snake;
 
 class posision {
     int x;
