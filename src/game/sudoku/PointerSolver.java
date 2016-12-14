@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by zhaoqc on 2016/12/14.
  */
-public class PointerSolver extends  AbstractSolver{
+public class PointerSolver extends AbstractSolver {
     private static class Entry {
         int r;
         int c;
@@ -26,6 +26,7 @@ public class PointerSolver extends  AbstractSolver{
             if (index < 0) {
                 return null;
             }
+
             count++;
             Entry entry = points.get(index);
             int i = entry.r;
@@ -40,17 +41,18 @@ public class PointerSolver extends  AbstractSolver{
             }
             if (candidate.isEmpty()) {
                 entry.candidates = null;
+                game[i][j] = 0;
                 index--;
             } else {
                 int value = candidate.remove(0);
                 game[i][j] = value;
                 index++;
             }
-
         }
         System.out.println(count);
         return game;
     }
+
 
     private List<Entry> searchPoints(int[][] game) {
         List<Entry> points = new ArrayList<Entry>(64);
