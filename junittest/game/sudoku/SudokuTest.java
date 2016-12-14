@@ -60,7 +60,7 @@ public class SudokuTest {
         game[8][6] = 4;
 
         printArray(game);
-        PointerSolver solver = new PointerSolver();
+        Solver solver = new Solver();
         int[][] result = solver.solve(game);
         printArray(result);
         Assert.assertNotNull(result);
