@@ -1,6 +1,8 @@
 package utils;
 
+import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
+import com.google.common.io.Files;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
@@ -178,6 +180,10 @@ public class FileUtil {
     public static File[] local(String path, final String regex) {
 
         return local(new File(path), regex);
+    }
+
+    public static void appendWrite(String path, String content) throws IOException {
+        Files.append(content, new File(path), Charsets.UTF_8);
     }
 
 }
