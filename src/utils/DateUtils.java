@@ -20,7 +20,7 @@ public class DateUtils {
 
 	public static final String DATE_FORMAT_STRING = "yyyy-MM-dd";
 	// TODO: Please use synchronized block if you use DATE_FORMAT. This the best
-	// way if no thread pools are used.
+	// practice when thread pool is unused.
 	private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat(
 			DATE_FORMAT_STRING);
 
