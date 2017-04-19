@@ -1,4 +1,4 @@
-package math;
+package math.calculator;
 
 public class Node {
 	private int entropy;

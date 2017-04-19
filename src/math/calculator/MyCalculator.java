@@ -1,4 +1,4 @@
-package math;
+package math.calculator;
 /**
  * 将四则运算表达式解析为二叉树结构，然后递归计算结果
  * 
