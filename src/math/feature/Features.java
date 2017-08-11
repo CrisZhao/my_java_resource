@@ -51,10 +51,14 @@ public class Features {
         rootMeanSquare = Math.sqrt(sumSquare / num);
 
         standardDeviation = 0;
-        for (double value : data) {
-            standardDeviation += Math.pow(value - mean, 2);
+        if(num>1) {
+            for (double value : data) {
+                standardDeviation += Math.pow(value - mean, 2);
+            }
+            standardDeviation/=num-1;
+            standardDeviation = Math.sqrt(standardDeviation);
         }
-        standardDeviation = Math.sqrt(standardDeviation);
+
     }
 
     public void calculateRange() {
@@ -65,21 +69,16 @@ public class Features {
         min = ascData[0];
         max = ascData[data.length - 1];
         range = max - min;
-        if (num % 2 == 0) {
-            median = ascData[num / 2 - 1] + ascData[num / 2];
-        } else {
-            median = ascData[num / 2];
-        }
-        double a = (1.0 + num) / 4.0;
-        double b = 3.0 * (1.0 + num) / 4.0;
-        int aInt = (int) a;
-        int bInt = (int) b;
-        double q1 = ascData[aInt - 1] + (a - aInt) * (ascData[aInt + 1] - ascData[aInt]);
-        double q3 = ascData[bInt - 1] + (b - bInt) * (ascData[bInt + 1] - ascData[bInt]);
+        median = getPercentile(0.5);
+        double q1 = getPercentile(0.25);
+        double q3 = getPercentile(0.75);
         interQuartileRange = q3 - q1;
 
     }
 
+    /**
+     * percentile 分位数，如95分位数输入0.95
+     */
     public double getPercentile(double percentile) {
         num = data.length;
         double g = (num-1)*percentile;
@@ -204,27 +203,4 @@ public class Features {
 
     }
 
-    public double[] buildRangeIns() {
-        double[] data = new double[5];
-        data[0] = getMean();
-        data[1] = getStandardDeviation();
-        data[2] = getRange();
-        data[3] = getInterQuartileRange();
-        return data;
-    }
-
-    public double[] buildAllFeaturesIns() {
-        double[] data = new double[13];
-        data[0] = getMean();
-        data[1] = getStandardDeviation();
-        data[2] = getRange();
-        data[3] = getInterQuartileRange();
-        data[4] = getEnergy();
-        data[5] = getEntropy();
-        data[6] = getFftResult()[1];
-        data[7] = getFftResult()[2];
-        data[8] = getFftResult()[3];
-        data[9] = getFftResult()[4];
-        return data;
-    }
 }
